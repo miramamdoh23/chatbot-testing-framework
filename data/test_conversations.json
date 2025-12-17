@@ -1,0 +1,43 @@
+{
+  "test_cases": [
+    {
+      "name": "greeting_flow",
+      "messages": [
+        {"user": "Hello", "expected_intent": "greeting"},
+        {"user": "I need help", "expected_intent": "help"}
+      ]
+    },
+    {
+      "name": "booking_flow",
+      "messages": [
+        {"user": "I want to book a meeting", "expected_intent": "booking"},
+        {"user": "Tomorrow at 2pm", "expected_intent": "booking"}
+      ]
+    },
+    {
+      "name": "context_flow",
+      "messages": [
+        {"user": "My name is Mira", "expected_intent": "name_introduction"},
+        {"user": "What's my name?", "expected_intent": "name_query"}
+      ]
+    }
+  ],
+  "intent_test_samples": [
+    {"text": "Hello", "intent": "greeting"},
+    {"text": "Hi there", "intent": "greeting"},
+    {"text": "Good morning", "intent": "greeting"},
+    {"text": "Goodbye", "intent": "goodbye"},
+    {"text": "Bye", "intent": "goodbye"},
+    {"text": "Thank you", "intent": "thanks"},
+    {"text": "Thanks a lot", "intent": "thanks"},
+    {"text": "I need help", "intent": "help"},
+    {"text": "Can you assist me?", "intent": "help"},
+    {"text": "Book a meeting", "intent": "booking"},
+    {"text": "Schedule an appointment", "intent": "booking"},
+    {"text": "What's the status?", "intent": "status"},
+    {"text": "Cancel my booking", "intent": "cancel"},
+    {"text": "What is AI?", "intent": "question"},
+    {"text": "How does this work?", "intent": "question"},
+    {"text": "What's the weather?", "intent": "weather"}
+  ]
+}
