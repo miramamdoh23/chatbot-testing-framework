@@ -1,4 +1,4 @@
-\# 🤖 Chatbot Testing Framework
+\#  Chatbot Testing Framework
 
 
 
@@ -14,7 +14,7 @@ Comprehensive testing framework for GenAI chatbots with focus on conversation fl
 
 
 
-\## 🎯 Purpose
+\##  Purpose
 
 
 
@@ -22,19 +22,19 @@ This framework demonstrates professional testing practices for conversational AI
 
 
 
-\- ✅ \*\*Conversation Flow Testing\*\* - Multi-turn dialogue validation
+\-  \*\*Conversation Flow Testing\*\* - Multi-turn dialogue validation
 
-\- ✅ \*\*Intent Recognition\*\* - NLP classification accuracy
+\-  \*\*Intent Recognition\*\* - NLP classification accuracy
 
-\- ✅ \*\*Response Quality Assessment\*\* - Relevance, tone, and grammar
+\-  \*\*Response Quality Assessment\*\* - Relevance, tone, and grammar
 
-\- ✅ \*\*Context Handling\*\* - Memory and state management
+\-  \*\*Context Handling\*\* - Memory and state management
 
-\- ✅ \*\*Error Scenario Testing\*\* - Edge cases and failure modes
+\-  \*\*Error Scenario Testing\*\* - Edge cases and failure modes
 
 
 
-\## 🛠️ Technologies Used
+\##  Technologies Used
 
 
 
@@ -48,7 +48,7 @@ This framework demonstrates professional testing practices for conversational AI
 
 
 
-\## 📦 Installation
+\##  Installation
 
 
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 
 
-\## 🚀 Quick Start
+\##  Quick Start
 
 
 
@@ -120,11 +120,11 @@ pytest --cov=chatbot --cov=tests tests/
 
 
 
-\## 📊 Test Results
+\##  Test Results
 
 
 
-\*\*Latest Test Run:\*\* All tests passing ✅
+\*\*Latest Test Run:\*\* All tests passing 
 
 
 
@@ -158,11 +158,11 @@ pytest --cov=chatbot --cov=tests tests/
 
 
 
-\## 🧪 Test Coverage Breakdown
+\##  Test Coverage Breakdown
 
 
 
-\### 1️⃣ Intent Recognition Tests
+\### 1️ Intent Recognition Tests
 
 
 
@@ -170,27 +170,27 @@ Tests the chatbot's ability to correctly classify user intents:
 
 
 
-\- ✅ Greeting intent (Hello, Hi, Good morning)
+\-  Greeting intent (Hello, Hi, Good morning)
 
-\- ✅ Goodbye intent (Bye, Farewell)
+\-  Goodbye intent (Bye, Farewell)
 
-\- ✅ Help requests
+\-  Help requests
 
-\- ✅ Booking requests
+\-  Booking requests
 
-\- ✅ Questions (What, How, Why)
+\-  Questions (What, How, Why)
 
-\- ✅ Weather queries
+\-  Weather queries
 
-\- ✅ Thank you messages
+\-  Thank you messages
 
-\- ✅ Unknown intent handling
+\-  Unknown intent handling
 
-\- ✅ Confidence scoring
+\-  Confidence scoring
 
-\- ✅ Case insensitivity
+\-  Case insensitivity
 
-\- ✅ Overall accuracy metrics (>80% target)
+\-  Overall accuracy metrics (>80% target)
 
 
 
@@ -210,7 +210,7 @@ def test\_greeting\_intent():
 
 
 
-\### 2️⃣ Conversation Flow Tests
+\### 2️ Conversation Flow Tests
 
 
 
@@ -218,25 +218,25 @@ Tests multi-turn conversation handling:
 
 
 
-\- ✅ Simple greeting flows
+\-  Simple greeting flows
 
-\- ✅ Multi-turn booking flows
+\-  Multi-turn booking flows
 
-\- ✅ Intent switching (Help → Booking)
+\-  Intent switching (Help → Booking)
 
-\- ✅ Complete conversations (Greeting → Help → Thanks → Goodbye)
+\-  Complete conversations (Greeting → Help → Thanks → Goodbye)
 
-\- ✅ Conversation history tracking
+\-  Conversation history tracking
 
-\- ✅ Reset functionality
+\-  Reset functionality
 
-\- ✅ Interrupted flows
+\-  Interrupted flows
 
-\- ✅ Rapid intent switching
+\-  Rapid intent switching
 
-\- ✅ Empty message handling
+\-  Empty message handling
 
-\- ✅ Extended conversations (10+ turns)
+\-  Extended conversations (10+ turns)
 
 
 
@@ -260,7 +260,7 @@ def test\_multi\_turn\_booking\_flow():
 
 
 
-\### 3️⃣ Response Quality Tests
+\### 3️ Response Quality Tests
 
 
 
@@ -268,25 +268,25 @@ Tests the quality and appropriateness of chatbot responses:
 
 
 
-\- ✅ Non-empty responses
+\-  Non-empty responses
 
-\- ✅ Reasonable length (3-50 words)
+\-  Reasonable length (3-50 words)
 
-\- ✅ No error indicators
+\-  No error indicators
 
-\- ✅ Relevance to user intent
+\-  Relevance to user intent
 
-\- ✅ Friendly tone
+\-  Friendly tone
 
-\- ✅ Proper grammar (capitalization, punctuation)
+\-  Proper grammar (capitalization, punctuation)
 
-\- ✅ Fast response time (<0.1s)
+\-  Fast response time (<0.1s)
 
-\- ✅ Consistency
+\-  Consistency
 
-\- ✅ Word count distribution
+\-  Word count distribution
 
-\- ✅ No repetitive responses
+\-  No repetitive responses
 
 
 
@@ -308,7 +308,7 @@ def test\_response\_tone\_friendly():
 
 
 
-\### 4️⃣ Context Handling Tests
+\### 4️ Context Handling Tests
 
 
 
@@ -316,25 +316,25 @@ Tests the chatbot's memory and context management:
 
 
 
-\- ✅ Name storage and recall
+\-  Name storage and recall
 
-\- ✅ Name introduction variations
+\-  Name introduction variations
 
-\- ✅ Booking context tracking
+\-  Booking context tracking
 
-\- ✅ Context persistence across intents
+\-  Context persistence across intents
 
-\- ✅ Context reset
+\-  Context reset
 
-\- ✅ Multiple context variables
+\-  Multiple context variables
 
-\- ✅ Context influence on responses
+\-  Context influence on responses
 
-\- ✅ Context overwriting
+\-  Context overwriting
 
-\- ✅ Conversation isolation
+\- Conversation isolation
 
-\- ✅ Complex multi-turn context
+\-  Complex multi-turn context
 
 
 
@@ -356,7 +356,7 @@ def test\_name\_context\_recall():
 
 
 
-\## 📁 Project Structure
+\##  Project Structure
 
 
 
@@ -412,7 +412,7 @@ chatbot-testing-framework/
 
 
 
-\## 🎓 Skills Demonstrated
+\##  Skills Demonstrated
 
 
 
@@ -446,7 +446,7 @@ This project showcases expertise in:
 
 
 
-\## 🌟 Key Features
+\##  Key Features
 
 
 
@@ -486,7 +486,7 @@ This project showcases expertise in:
 
 
 
-\## 💡 Use Cases
+\##  Use Cases
 
 
 
@@ -570,7 +570,7 @@ class TestNewFeature:
 
 
 
-\## 📈 Performance Metrics
+\##  Performance Metrics
 
 
 
@@ -584,7 +584,7 @@ class TestNewFeature:
 
 
 
-\## 🎯 Testing Strategy
+\##  Testing Strategy
 
 
 
@@ -630,7 +630,7 @@ class TestNewFeature:
 
 
 
-\## 🚀 Future Enhancements
+\##  Future Enhancements
 
 
 
@@ -678,7 +678,7 @@ This project is licensed under the MIT License.
 
 
 
-\## 🙏 Acknowledgments
+\##  Acknowledgments
 
 
 
@@ -690,11 +690,11 @@ Built to demonstrate professional GenAI testing methodologies and best practices
 
 
 
-⭐ \*\*If you find this project useful, please consider giving it a star!\*\*
+ \*\*If you find this project useful, please consider giving it a star!\*\*
 
 
 
-\## 📞 Contact
+\##  Contact
 
 
 
@@ -712,5 +712,6 @@ For questions, suggestions, or collaboration opportunities, feel free to reach o
 
 
 
-\*\*Happy Testing! 🤖✨\*\*
+\*\*Happy Testing! \*\*
+
 
