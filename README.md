@@ -7,6 +7,7 @@
 Comprehensive testing framework for GenAI chatbots with focus on conversation flow, intent recognition, response quality, and context handling.
 
 ---
+[![Python application](https://github.com/miramamdoh23/chatbot-testing-framework/actions/workflows/python-app.yml/badge.svg)](https://github.com/miramamdoh23/chatbot-testing-framework/actions/workflows/python-app.yml)
 
 ## Purpose
 
@@ -388,3 +389,4 @@ For questions, suggestions, or collaboration opportunities, feel free to reach o
 ---
 
 **Built by Mira Mamdoh**
+
